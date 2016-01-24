@@ -23,8 +23,16 @@ All you have to do to make MVC5 projects working with angular2 is to add the fol
 </PropertyGroup>
 ```
   
-Gulp task adds all required node modules to the app/libs folder. Gulp task "compile-ts" could also be used for .ts compilation if you disable Visual Studio TS-Compilation via:
+Gulp task adds all required node modules to the app/libs folder. 
+
+
+Gulp task "compile-ts" could also be used for .ts compilation if you disable Visual Studio TS-Compilation via:
 
 ```
  <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+```
+
+If you chose gulp to compile your .ts files, then you also have to add the "compile-ts" task as after-build binding in the task runner explorer:
+```
+/// <binding AfterBuild='libs, compile-ts' Clean='clean' />
 ```
