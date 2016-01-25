@@ -6,9 +6,9 @@ Be sure that all NPM Packages (package.json) are restored before building the So
 If you then build the app, the gulp task copies the required node_modules files to "app/libs" folder.
 
 
-Visual Studio compiles TypeScript files. 
+<h2>Description</h2>
 
-All you have to do to make MVC5 projects working with angular2 is to add the following TypeScript settings to your .csproj file:
+Visual Studio compiles TypeScript files for you (no via gulp). All you have to do to make MVC5 projects working with angular2 is to add the following TypeScript settings to your .csproj file:
 ```
 <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptTarget>ES5</TypeScriptTarget>
