@@ -1,5 +1,5 @@
 # angular2mvc5
-Visual Studio 2015 Angular2 Sample with MVC5
+Visual Studio 2015 Angular2 (Beta 1) Sample with MVC5
 
 Be sure that all NPM Packages (package.json) are restored before building the solution. Normally the packages should be automatically restored when you first open the solution. If not, right click package.json -> Restore Packages
 
