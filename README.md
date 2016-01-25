@@ -1,6 +1,11 @@
 # angular2mvc5
 Visual Studio 2015 Angular2 Sample with MVC5
 
+Be sure that all NPM Packages (package.json) are restored before building the Solution! Normally the packages should be automatically restored when you first open the solution. If not, right click package.json -> Restore Packages
+
+If you then build the app, the gulp task copies the required node_modules files to "app/libs" folder.
+
+
 Visual Studio compiles TypeScript files. 
 
 All you have to do to make MVC5 projects working with angular2 is to add the following TypeScript settings to your .csproj file:
