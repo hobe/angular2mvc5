@@ -1,6 +1,9 @@
 # angular2mvc5
 Visual Studio 2015 Angular2 (Beta 1) Sample with MVC5
 
+**Attention: Requires "TypeScript 1.7.6.0 for Visual Studio 2015 Update 1" Visual Studio extension, otherwise building the solution will fail with error [Cannot find module "angular2/platform/browser"]**
+
+
 Be sure that all NPM Packages (package.json) are completely restored before building the solution (have a look into the output window). Normally the packages should be automatically restored when you first open the solution (this might take several minutes). If not, right click package.json -> Restore Packages
 
 If you then build the app, the gulp task copies the required node_modules files to "app/libs" folder.
