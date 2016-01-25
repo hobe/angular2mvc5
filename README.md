@@ -32,7 +32,7 @@ Gulp task "compile-ts" could also be used for .ts compilation if you disable Vis
  <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
 ```
 
-If you chose gulp to compile your .ts files, then you also have to add the "compile-ts" task as after-build binding in the task runner explorer:
+If you choose gulp to compile your .ts files, then you also have to add the "compile-ts" task as after-build binding in the task runner explorer:
 ```
 /// <binding AfterBuild='libs, compile-ts' Clean='clean' />
 ```
