@@ -27,7 +27,7 @@ Visual Studio compiles TypeScript files for you (not via gulp-task). All you hav
     <TypeScriptExperimentalDecorators>True</TypeScriptExperimentalDecorators>
 </PropertyGroup>
 ```
-<h2>Gulp</h2>
+<h3>Gulp</h3>
 The gulpfile.js contains a task called "libs", which copies the required node modules to the app/libs folder. Therefore, all NPM packages must be successfully restored.
 
 The gulpfile also contains a task called "compile-ts", which is currently not in use. This task could be used to compile the typescript files instead of letting VS2015 compile the .ts files. Therefore you should disable VS typescript-compilation by adding the following line to your .csproj PropertyGroup:
